@@ -16,23 +16,24 @@
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
+            <td style="padding:2.5%;width:70%;vertical-align:middle">
               <p style="text-align:center">
                 <name>Shaoxiong Yao</name>
               </p>
               <p> 
-                I am a fourth-year PhD student majoring in <a href="https://cs.illinois.edu/">Computer Science</a> at University of Illinois at Urbana-Champaign.
-                My advisor is <a href="https://kkhauser.web.illinois.edu/"> Prof. Kris Hauser </a>.
-                I have dual undergraduate degree in <a href="https://cse.engin.umich.edu/academics/undergraduate/computer-science-eng/">Computer Science</a> from University of Michigan and 
+                I am a research scientist at <a href="https://www.dyna.co/">Dyna</a>, working on dexterous manipulation.
+                I recently received my PhD in <a href="https://cs.illinois.edu/">Computer Science</a> from University of Illinois at <span style="white-space:nowrap">Urbana-Champaign</span>,
+                where I was advised by <a href="https://kkhauser.web.illinois.edu/">Prof.&nbsp;Kris&nbsp;Hauser</a>.
+                I have dual undergraduate degrees in <a href="https://cse.engin.umich.edu/academics/undergraduate/computer-science-eng/">Computer Science</a> from University of Michigan and 
                 <a href="https://www.ji.sjtu.edu.cn/academics/undergraduate-program/degrees-programs/electrical-and-computer-engineering/">Electrical and Computer Engineering</a> from Shanghai Jiao Tong University. 
               </p>
               <p style="text-align:center">
-                <a href="data/ShaoxiongYaoCV.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/Shaoxiong_Yao_CV.pdf">CV</a> &nbsp;/&nbsp;
                 <a href="data/ShaoxiongYao-bio.txt">Biography</a> 
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/shaoxiong_photo2.jpg"><img style="width:75%;max-width:75%" alt="profile photo" src="images/shaoxiong_photo2.jpg" class="hoverZoomLink"></a>
+            <td style="padding:2.5%;width:30%;max-width:30%;text-align:right">
+              <a href="images/shaoxiong_photo2.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/shaoxiong_photo2.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
@@ -41,9 +42,9 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research Interests</heading>
-              <p>
-                My goal is to build intelligent and safe robots. 
-                I work on robotic tactile perception and manipulation.
+              <p class="interests">
+                My research focuses on developing physically grounded models for robotic manipulation through multimodal real-world observations, including vision, touch, and language,
+                with works in Robotic&nbsp;Manipulation [CVPR&nbsp;2026, ICRA&nbsp;2026&nbsp;Workshop, ICRA&nbsp;2025], Multimodal&nbsp;Perception [ICRA&nbsp;2023, CoRL&nbsp;2024, ICRA&nbsp;2025] and Physical&nbsp;Modeling [ICRA&nbsp;2024].
               </p>
             </td>
           </tr>
@@ -58,83 +59,118 @@
         </tbody></table>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/guava_overview.png" style="width:100%;height:auto;"></td>
+            <td width="75%" valign="center">
+              <div class="pub-line"><a href="https://arxiv.org/abs/2606.18363">Guava: Distilling Frontier VLMs into a Compact Agent through a Robotic Manipulation Harness</a></div>
+              <div class="pub-line">Haowen&nbsp;Liu*, Xirui&nbsp;Li*, <strong>Shaoxiong&nbsp;Yao</strong>*, Peng&nbsp;Shi, Tianyi&nbsp;Zhou, Jia-Bin&nbsp;Huang, Furong&nbsp;Huang and Jiayuan&nbsp;Mao</div>
+              <div class="pub-line"><em>arXiv preprint</em>, 2026</div>
+              <div class="pub-line"><a href="https://arxiv.org/abs/2606.18363">arXiv</a> &nbsp;/&nbsp;
+              <a href="https://guava-harness.github.io/">Project Webpage</a> &nbsp;/&nbsp;
+              <a href="https://github.com/hdacnw/guava-release">Code</a></div>
+              <div><span class="tag">vision-language models</span><span class="tag">tool-using agents</span><span class="tag">distillation</span><span class="tag">sim-to-real</span></div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/dex_nonprehensile_overview.png" style="width:100%;height:auto;"></td>
+            <td width="75%" valign="center">
+              <div class="pub-line"><a href="https://www.merl.com/publications/docs/TR2026-073.pdf">Dexterous Non-prehensile Manipulation using Environment Guided Diffusion Models</a></div>
+              <div class="pub-line"><strong>Shaoxiong&nbsp;Yao</strong>, Chengyi&nbsp;Xing, Yuki&nbsp;Shirari, Devesh&nbsp;Jha and Diego&nbsp;Romeres</div>
+              <div class="pub-line"><em>ICRA 2026 Workshop on Dexterity with Multifingered Hands: Hardware, Sensing, and Skills</em>, 2026</div>
+              <div class="pub-line"><a href="https://www.merl.com/publications/docs/TR2026-073.pdf">Paper</a></div>
+              <div><span class="tag">dexterous manipulation</span><span class="tag">non-prehensile manipulation</span><span class="tag">guided diffusion</span></div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/simpact_overview.png" style="width:100%;height:auto;"></td>
+            <td width="75%" valign="center">
+              <div class="pub-line"><a href="https://arxiv.org/abs/2512.05955">SIMPACT: Simulation-Enabled Action Planning using Vision-Language Models</a></div>
+              <div class="pub-line">Haowen&nbsp;Liu*, <strong>Shaoxiong&nbsp;Yao</strong>*, Haonan&nbsp;Chen, Jiawei&nbsp;Gao, Jiayuan&nbsp;Mao, Jia-Bin&nbsp;Huang and Yilun&nbsp;Du</div>
+              <div class="pub-line"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026</div>
+              <div class="pub-line"><a href="https://arxiv.org/abs/2512.05955">arXiv</a> &nbsp;/&nbsp;
+              <a href="https://simpact-bot.github.io/">Project Webpage</a> &nbsp;/&nbsp;
+              <a href="https://github.com/ShaoxiongYao/simpact">Code</a></div>
+              <div><span class="tag">vision-language models</span><span class="tag">real-to-sim</span><span class="tag">physical reasoning</span><span class="tag">manipulation planning</span></div>
+            </td>
+          </tr>
+
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/neural_vsf_overview.png" style="width:100%;height:auto;"></td>
             <td width="75%" valign="center">
-              Estimating High-Resolution Neural Stiffness Fields using Visuotactile Sensors
-              <br>
-              Jiaheng Han*, Shaoxiong Yao* and Kris Hauser
-              <br>
-                <em>International Conference on Robotics and Automation (ICRA)</em>, 2025
-              <br>
-              <a href="https://hjh371.github.io/Neural-VSF/">Project Webpage</a>
+              <div class="pub-line"><a href="https://ieeexplore.ieee.org/document/11128319/">Estimating High-Resolution Neural Stiffness Fields using Visuotactile Sensors</a></div>
+              <div class="pub-line">Jiaheng&nbsp;Han*, <strong>Shaoxiong&nbsp;Yao</strong>* and Kris&nbsp;Hauser</div>
+              <div class="pub-line"><em>International Conference on Robotics and Automation (ICRA)</em>, 2025</div>
+              <div class="pub-line"><a href="https://ieeexplore.ieee.org/document/11128319/">Paper</a> &nbsp;/&nbsp;
+              <a href="https://motion.cs.illinois.edu/papers/ICRA2025_Han_NeuralVolumetricStiffness.pdf">PDF</a> &nbsp;/&nbsp;
+              <a href="https://hjh371.github.io/Neural-VSF/">Project Webpage</a> &nbsp;/&nbsp;
+              <a href="https://github.com/uiuc-iml/openvsf">Code</a></div>
+              <div><span class="tag">tactile perception</span><span class="tag">neural fields</span><span class="tag">deformable object modeling</span></div>
             </td>
           </tr>
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/pull_leaf_overview.png" style="width:100%;height:auto;"></td>
             <td width="75%" valign="center">
-              <a href="https://arxiv.org/abs/2409.17389">Safe Leaf Manipulation for Accurate Shape and Pose Estimation of Occluded Fruits</a>
-              <br>
-              Shaoxiong Yao*, Sicong Pan*, Maren Bennewitz and Kris Hauser
-              <br>
-                <em>International Conference on Robotics and Automation (ICRA)</em>, 2025
-              <br>
-              <a href="https://shaoxiongyao.github.io/lmap-ssc/">Project Webpage</a>
+              <div class="pub-line"><a href="https://arxiv.org/abs/2409.17389">Safe Leaf Manipulation for Accurate Shape and Pose Estimation of Occluded Fruits</a></div>
+              <div class="pub-line"><strong>Shaoxiong&nbsp;Yao</strong>*, Sicong&nbsp;Pan*, Maren&nbsp;Bennewitz and Kris&nbsp;Hauser</div>
+              <div class="pub-line"><em>International Conference on Robotics and Automation (ICRA)</em>, 2025</div>
+              <div class="pub-line"><a href="https://arxiv.org/abs/2409.17389">arXiv</a> &nbsp;/&nbsp;
+              <a href="https://shaoxiongyao.github.io/lmap-ssc/">Project Webpage</a> &nbsp;/&nbsp;
+              <a href="https://github.com/ShaoxiongYao/SafeLeafManip/">Code</a> &nbsp;/&nbsp;
+              <a href="https://youtu.be/bHzx8Zcsfoo">Video</a></div>
+              <div><span class="tag">agricultural robotics</span><span class="tag">deformable object manipulation</span><span class="tag">shape completion</span></div>
             </td>
           </tr>
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/plant_fem_overview.png" style="width:100%;height:auto;"></td>
             <td width="75%" valign="center">
-              <a href="data/IROS2025Workshop_Yao_Pan_SimPlant.pdf">Generating and Estimating Linear FEM Plant Simulation Models</a>
-              <br>
-              Shaoxiong Yao and Kris Hauser
-              <br>
-              <em>IROS2024 Workshop on Agricultural Robotics for a Sustainable Future</em>, 2024
-              <br>
-              <a href="https://github.com/ShaoxiongYao/visual-tactile-simulate">Open-source code(WIP)</a>
+              <div class="pub-line"><a href="data/IROS2024Workshop_Yao_SimPlant.pdf">Generating and Estimating Linear FEM Plant Simulation Models</a></div>
+              <div class="pub-line"><strong>Shaoxiong&nbsp;Yao</strong> and Kris&nbsp;Hauser</div>
+              <div class="pub-line"><em>IROS2024 Workshop on Agricultural Robotics for a Sustainable Future</em>, 2024</div>
+              <div class="pub-line"><a href="data/IROS2024Workshop_Yao_SimPlant.pdf">PDF</a> &nbsp;/&nbsp;
+              <a href="https://github.com/ShaoxiongYao/visual-tactile-simulate">Code (WIP)</a></div>
+              <div><span class="tag">physical modeling</span><span class="tag">FEM simulation</span><span class="tag">agricultural robotics</span></div>
             </td>
           </tr>
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/sbml_overview.png" style="width:100%;height:auto;"></td>
             <td width="75%" valign="center">
-              <a href="https://motion.cs.illinois.edu/papers/ICRA2024_Peng_EstimationSoftBubble.pdf">Structured Bayesian Meta-Learning for Data-Efficient Visual-Tactile Model Estimation</a>
-              <br>
-              Shaoxiong Yao, Yifan Zhu and Kris Hauser
-              <br>
-              <em>Conference on Robot Learning (CoRL)</em>, 2024
-              <br>
-              <a href="https://shaoxiongyao.github.io/SBML/">Project Webpage</a>
+              <div class="pub-line"><a href="https://proceedings.mlr.press/v270/yao25a.html">Structured Bayesian Meta-Learning for Data-Efficient Visual-Tactile Model Estimation</a></div>
+              <div class="pub-line"><strong>Shaoxiong&nbsp;Yao</strong>, Yifan&nbsp;Zhu and Kris&nbsp;Hauser</div>
+              <div class="pub-line"><em>Conference on Robot Learning (CoRL)</em>, 2024</div>
+              <div class="pub-line"><a href="https://proceedings.mlr.press/v270/yao25a.html">Paper</a> &nbsp;/&nbsp;
+              <a href="https://motion.cs.illinois.edu/papers/CoRL2024_Yao_MetaLearnVisualTactileModel.pdf">PDF</a> &nbsp;/&nbsp;
+              <a href="https://shaoxiongyao.github.io/SBML/">Project Webpage</a> &nbsp;/&nbsp;
+              <a href="https://github.com/uiuc-iml/openvsf">Code</a></div>
+              <div><span class="tag">meta-learning</span><span class="tag">visual-tactile perception</span><span class="tag">deformable object modeling</span></div>
             </td>
           </tr>
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/punyo_estimate.png" style="width:100%;height:auto;"></td>
             <td width="75%" valign="center">
-              <span class="papertitle"><a href="https://motion.cs.illinois.edu/papers/ICRA2024_Peng_EstimationSoftBubble.pdf">3D Force and Contact Estimation for a Soft-Bubble Visuotactile Sensor Using FEM</a></span>
-              <br>
-              Jing-Chen Peng, Shaoxiong Yao and Kris Hauser
-              <br>
-                <em>International Conference on Robotics and Automation (ICRA)</em>, 2024
-              <br>
-              <a href="https://github.com/uiuc-iml/punyo_force_estimation">Open-source code</a>
+              <div class="pub-line"><a href="https://motion.cs.illinois.edu/papers/ICRA2024_Peng_EstimationSoftBubble.pdf">3D Force and Contact Estimation for a Soft-Bubble Visuotactile Sensor Using FEM</a></div>
+              <div class="pub-line">Jing-Chen&nbsp;Peng, <strong>Shaoxiong&nbsp;Yao</strong> and Kris&nbsp;Hauser</div>
+              <div class="pub-line"><em>International Conference on Robotics and Automation (ICRA)</em>, 2024</div>
+              <div class="pub-line"><a href="https://motion.cs.illinois.edu/papers/ICRA2024_Peng_EstimationSoftBubble.pdf">PDF</a> &nbsp;/&nbsp;
+              <a href="https://github.com/uiuc-iml/punyo_force_estimation">Code</a></div>
+              <div><span class="tag">tactile sensing</span><span class="tag">FEM</span><span class="tag">contact force estimation</span></div>
             </td>
           </tr>
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/vsf_overview.png" style="width:100%;height:auto;"></td>
             <td width="75%" valign="center">
-              <a href="https://motion.cs.illinois.edu/papers/ICRA2023_Yao_VolumeStiffnessField.pdf">Estimating Tactile Models of Heterogeneous Deformable Objects in Real Time</a>
-              <br>
-              Shaoxiong Yao and Kris Hauser 
-              <br>
-                <em>International Conference on Robotics and Automation (ICRA)</em>, 2023
-              <br>
-              <br>
-              <a href="https://motion.cs.illinois.edu/papers/ICRAWorkshop2022_Yao_StiffnessField.pdf">Earlier workshop version</a>
-              <br>
-              ICRA2022, 2nd Workshop on Representing and Manipulating Deformable Objects
+              <div class="pub-line"><a href="https://motion.cs.illinois.edu/papers/ICRA2023_Yao_VolumeStiffnessField.pdf">Estimating Tactile Models of Heterogeneous Deformable Objects in Real Time</a></div>
+              <div class="pub-line"><strong>Shaoxiong&nbsp;Yao</strong> and Kris&nbsp;Hauser</div>
+              <div class="pub-line"><em>International Conference on Robotics and Automation (ICRA)</em>, 2023</div>
+              <div class="pub-line"><a href="https://motion.cs.illinois.edu/papers/ICRA2023_Yao_VolumeStiffnessField.pdf">PDF</a> &nbsp;/&nbsp;
+              <a href="https://github.com/uiuc-iml/openvsf">Code</a> &nbsp;/&nbsp;
+              <a href="https://motion.cs.illinois.edu/papers/ICRAWorkshop2022_Yao_StiffnessField.pdf">Earlier workshop version (ICRA 2022)</a></div>
+              <div><span class="tag">tactile perception</span><span class="tag">deformable object modeling</span><span class="tag">real-time estimation</span></div>
             </td>
           </tr>
         </tbody></table>
@@ -178,20 +214,20 @@
           </tr>
           </tbody>
         </table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/pepper_demo_trim.gif" style="width:100%;height:auto;"></td>
             <td width="75%" valign="center">
-              <a href="video/TeachYourRobotToDance.mp4">Teach your robot to dance, EECE467 Final Project Winter 2021</a>
+              <a href="video/TeachYourRobotToDance.mp4">Teach your robot to dance, EECS467 Final Project Winter 2021</a>
             </td>
           </tr>
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
-            <td style="padding:0px">
+            <td style="padding:20px">
               <p style="text-align:left;font-size:small;">
-                Updated in Nov. 2024. Thanks <a href="https://jonbarron.info/"> Jon Barron</a> for this amazing template.
+                Updated in Nov. 2026. Thanks <a href="https://jonbarron.info/">Jon Barron</a> for this amazing template.
               </p>
             </td>
           </tr>

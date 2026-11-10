@@ -1,2 +1,3 @@
-Shaoxiong Yao is a PhD student majoring in Computer Science at University of Illinois at Urbana-Champaign.
-He has a dual undergraduate degree in Computer Science from University of Michigan and Electrical and Computer Engineering from Shanghai Jiao Tong University. 
+Shaoxiong Yao is a research scientist at Dyna working on dexterous manipulation.
+He received his PhD in Computer Science from University of Illinois at Urbana-Champaign, advised by Prof. Kris Hauser.
+He has a dual undergraduate degree in Computer Science from University of Michigan and Electrical and Computer Engineering from Shanghai Jiao Tong University.

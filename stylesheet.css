@@ -129,3 +129,32 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+span.tag {
+  display: inline-block;
+  margin: 6px 6px 0 0;
+  padding: 0 6px;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  color: #666666;
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+
+/* avoid a single hanging word on the last line */
+p {
+  text-wrap: pretty;
+}
+
+.pub-line {
+  text-wrap: pretty;
+}
+
+/* Research Interests: justified on wide screens so the right edge lines up with the other sections */
+@media (min-width: 700px) {
+  p.interests {
+    text-align: justify;
+  }
+}
